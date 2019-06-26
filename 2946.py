@@ -1,4 +1,4 @@
-n = int(input())
+n = int("0b"+input(), 2)
 m = int(input())
 lista = []
 for i in range(m):
